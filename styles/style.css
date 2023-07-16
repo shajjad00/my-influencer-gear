@@ -2,3 +2,128 @@
   padding: 0;
   margin: 0;
 }
+
+/* nav styles */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 120px;
+}
+.nav-logo {
+  color: #3a3a3a;
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav li {
+  list-style-type: none;
+  margin-left: 30px;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 120px;
+}
+.banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px; /* 134.615% */
+}
+.banner-desc {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  margin-block: 30px;
+}
+.btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: #e02c6d;
+  border: none;
+}
+.btn i {
+  margin-left: 10px;
+  margin-block: auto;
+}
+.banner-img {
+  background-image: url(../images/Circle\ design.svg);
+}
+.banner-img img {
+  width: 100%;
+}
+/* sponsors-container */
+.sponsors-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-inline: 120px;
+  align-content: center;
+  margin-top: 80px;
+}
+/* cart items styles */
+.cart-items {
+  margin-inline: 150px;
+  margin-top: 80px;
+}
+.cart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.cart-items-title {
+  color: #3a3a3a;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px; /* 250% */
+  margin-bottom: 28px;
+}
+.cart {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 14px;
+  margin-inline: auto;
+}
+.cart-title {
+  color: var(--text-gray-900, #18191f);
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px; /* 142.857% */
+  margin-top: 12px;
+}
+.cart-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  margin-block: 5px;
+}
+.ratings {
+  color: rgb(244, 179, 18);
+}
+.cart-desc {
+  color: var(--gray-50, #787885);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+}
